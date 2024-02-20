@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/mike/quickstart",
+	"sourceRoot": "/home/mike/Projects/websites/knonet_website",
 	"sources": [
 		"ananke/css/main.css"
 	],
