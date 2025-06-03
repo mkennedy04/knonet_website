@@ -1,0 +1,11 @@
+---
+title: "Welcome"
+---
+
+
+# 👋 Hello, world!
+
+This is the homepage content written in Markdown.
+
+- ✨ It's easy to update.
+- 🛠️ It can include links, images, or shortcodes.

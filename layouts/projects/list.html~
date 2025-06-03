@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="homepage">
+  <div class="content">
+    {{ .Content }} <!-- This pulls from _index.md -->
+  </div>
+
+  <div class="post-list">
+    <h2>📝 Recent Posts</h2>
+    <ul>
+      {{ $posts := where site.RegularPages "Section" "posts" }}
+      {{ range $posts }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+        </li>
+      {{ end }}
+    </ul>
+    {{ template "_internal/pagination.html" . }}
+  </div>
+
+  <!-- Projects section from content -->
+  <div class="projects">
+    <h2>🚀 Projects</h2>
+    <ul>
+      {{ $projects := where site.RegularPages "Section" "projects" }}
+      {{ range $projects }}
+      <li>
+        <a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a> – {{ .Params.description }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+</section>
+
+{{ end }}

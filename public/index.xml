@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Welcome on knonet.org</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome on knonet.org</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jun 2025 08:47:57 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 03 Jun 2025 08:47:57 -0700</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-my-markdown-heading&#34;&gt;This is my markdown heading!&lt;/h1&gt;
+&lt;h2 id=&#34;and-a-short-list&#34;&gt;And a short list&amp;hellip;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;An item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;A third and final item&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Project One</title>
+      <link>http://localhost:1313/projects/project-one/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-one/</guid>
+      <description>An app that tracks daily habits</description>
+    </item>
+  </channel>
+</rss>

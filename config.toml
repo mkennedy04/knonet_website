@@ -1,0 +1,33 @@
+baseURL = "https://knonet.org/"
+languageCode = "en-us"
+title = "knonet.org"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  # homePostsSection = "posts"
+  
+[params.homeInfoParams]
+  Title = "From config.toml"
+  Content = "This is from the config.toml file...  more than likely will abandon for content/_index.md"
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 30
