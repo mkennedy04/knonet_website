@@ -1,8 +1,0 @@
-{{ define "main" }}
-<section class="homepage">
-  <div class="content">
-    {{ .Content }} <!-- This pulls from _index.md -->
-  </div>
-</section>
-
-{{ end }}
