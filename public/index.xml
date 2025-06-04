@@ -19,7 +19,16 @@
 &lt;li&gt;An item&lt;/li&gt;
 &lt;li&gt;Another item&lt;/li&gt;
 &lt;li&gt;A third and final item&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+&lt;h2 id=&#34;and-some-math-for-fun&#34;&gt;And some &lt;em&gt;math&lt;/em&gt; for fun&lt;/h2&gt;
+&lt;p&gt;When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$&lt;/p&gt;
+&lt;h2 id=&#34;and-some-more-math&#34;&gt;And some more &lt;em&gt;math&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;Inline math: $a^2 + b^2 = c^2$&lt;/p&gt;
+&lt;p&gt;Display math:&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project One</title>
