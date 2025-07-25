@@ -3,7 +3,7 @@ title: "Welcome"
 ---
 
 
-# 👋 Hello, world!
+# Hello, world!
 
 I am trying to add some content...
 
