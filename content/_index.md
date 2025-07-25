@@ -5,7 +5,9 @@ title: "Welcome"
 
 # 👋 Hello, world!
 
-This is the homepage content written in Markdown.
+I am trying to add some content...
 
-- ✨ It's easy to update.
-- 🛠️ It can include links, images, or shortcodes.
+A simple site where I am learning Hugo...  These content files are all written in Markdown, making it..
+
+- ✨ easy to update.
+- 🛠️ flexible...  It can include links, images, or shortcodes.
