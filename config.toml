@@ -1,6 +1,6 @@
 baseURL = "https://knonet.org/"
 languageCode = "en-us"
-title = "knonet.org"
+title = "KNO Net"
 theme = "PaperMod"
 
 [markup]
